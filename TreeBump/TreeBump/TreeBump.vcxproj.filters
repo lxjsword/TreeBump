@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{cf641a24-a5b2-4a2c-bc1d-ac575e82bfb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{08aec8f0-c9d5-49cf-aecf-bfd58bc7d09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extensions">
+      <UniqueIdentifier>{20f79ed3-231c-4fea-aa06-b64a645ee879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Maths Headers">
+      <UniqueIdentifier>{0a3ce00a-7adf-4db4-929b-ce2a19e0daaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Maths Source">
+      <UniqueIdentifier>{18f90294-60c1-4121-be32-d7159119f1db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Image\IMAGE.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\ARB_multitexture_extension.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\ARB_texture_cube_map_extension.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\ARB_texture_env_combine_extension.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\ARB_texture_env_dot3_extension.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\Maths.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\COLOR.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\MATRIX4X4.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\PLANE.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR2D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR3D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR4D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Normalisation Cube Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Image\IMAGE_CalculateStride.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_ExpandPalette.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_Load.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_Load8BitBMP.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_Load24BitBMP.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadAlpha.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadBMP.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadCompressedTrueColorTGA.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadTGA.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadUncompressed8BitTGA.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadUncompressedTrueColorTGA.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\ARB_multitexture_extension.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\ARB_texture_cube_map_extension.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\ARB_texture_env_combine_extension.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\ARB_texture_env_dot3_extension.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\COLOR.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\MATRIX4X4.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\PLANE.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR2D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR3D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR4D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Normalisation Cube Map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

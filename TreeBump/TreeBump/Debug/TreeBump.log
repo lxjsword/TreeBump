@@ -1,0 +1,38 @@
+﻿生成启动时间为 2016/9/8 20:14:58。
+     1>项目“E:\OPENGL\treebump\TreeBump\TreeBump\TreeBump.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Tree.cpp main.cpp
+         正在跳过...(未检测到相关更改)
+         main.cpp
+         Tree.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OPENGL\treebump\TreeBump\Debug\TreeBump.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OPENGL\treebump\TreeBump\Debug\TreeBump.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OPENGL\treebump\TreeBump\Debug\TreeBump.lib" /MACHINE:X86 Debug\ARB_multitexture_extension.obj
+         Debug\ARB_texture_cube_map_extension.obj
+         Debug\ARB_texture_env_combine_extension.obj
+         Debug\ARB_texture_env_dot3_extension.obj
+         Debug\IMAGE_CalculateStride.obj
+         Debug\IMAGE_ExpandPalette.obj
+         Debug\IMAGE_Load.obj
+         Debug\IMAGE_Load24BitBMP.obj
+         Debug\IMAGE_Load8BitBMP.obj
+         Debug\IMAGE_LoadAlpha.obj
+         Debug\IMAGE_LoadBMP.obj
+         Debug\IMAGE_LoadCompressedTrueColorTGA.obj
+         Debug\IMAGE_LoadTGA.obj
+         Debug\IMAGE_LoadUncompressed8BitTGA.obj
+         Debug\IMAGE_LoadUncompressedTrueColorTGA.obj
+         Debug\main.obj
+         Debug\COLOR.obj
+         Debug\MATRIX4X4.obj
+         Debug\PLANE.obj
+         Debug\VECTOR2D.obj
+         Debug\VECTOR3D.obj
+         Debug\VECTOR4D.obj
+         "Debug\Normalisation Cube Map.obj"
+         Debug\Tree.obj
+         TreeBump.vcxproj -> E:\OPENGL\treebump\TreeBump\Debug\TreeBump.exe
+     1>已完成生成项目“E:\OPENGL\treebump\TreeBump\TreeBump\TreeBump.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.64
